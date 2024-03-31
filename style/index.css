@@ -82,7 +82,31 @@
     width: auto;
     padding: 80px 10%;
  }
+ /* main section */
+ /* client section */
+ #client{
+    text-align: center;
+    background-color: white;
+    width: auto;
+    padding: 50px 10%;
 
+ }
+ #client-heading{
+    color: #4D4D4D;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 10px 0px;
+ }
+#client-allicon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+
+}.client-icon{
+    height: 40px;
+    width: 40px;
+}
 /*..........................................*/
 /* Responsive section */
 
