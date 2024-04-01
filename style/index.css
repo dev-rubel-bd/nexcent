@@ -162,6 +162,7 @@
 #pixelgrade-heading{
     font-size: 36px;
     font-weight: 600;
+    color: #4D4D4D ;
     
 }
 #pixelgrade-pragraph{
@@ -169,6 +170,33 @@
     font-weight: 400;
     line-height: 20px;
     padding: 20px 0;
+}
+/* Local business section */
+#business{
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    padding: 50px 10%;
+}
+.business-component{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+#business-allcomponent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    padding: 0 10%;
+}
+#business-heading{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color:  #4D4D4D;
 }
 
 /*..........................................*/
