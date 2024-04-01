@@ -120,8 +120,8 @@
     padding: 10px 0px;
 }
 .community-card{
-    height: 299px;
-    width: 260px;
+    height: 260px;
+    width: 299px;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
     padding: 20px 0;
 }
@@ -131,13 +131,46 @@
     padding: 20px 0;
     color:  #4D4D4D;
 }
+.community-card-pragraph{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding:10px ;
+}
 #community-allcard{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: auto;
-    padding: 50px 10%;
+    padding: 80px 10%;
 }
+
+/* Pixelgrade section */
+#pixelgrade{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    padding: 30px 10%;
+}
+
+#pixelgrade-text{
+    width: 661px;
+    height: 268px;
+    padding: 20px 10%;
+}
+#pixelgrade-heading{
+    font-size: 36px;
+    font-weight: 600;
+    
+}
+#pixelgrade-pragraph{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 20px 0;
+}
+
 /*..........................................*/
 /* Responsive section */
 
